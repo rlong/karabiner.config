@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+<name>rlong: keyboard mods</name>
+<appendix></appendix>
+<identifier>private.rlong</identifier>
+<autogen>
+  --KeyToKey--
+  KeyCode::CURSOR_UP, ModifierFlag::CONTROL_L,
+  KeyCode::PAGEUP, ModifierFlag::OPTION_L 
+</autogen>
+<autogen>
+  --KeyToKey--
+  KeyCode::CURSOR_DOWN, ModifierFlag::CONTROL_L,
+  KeyCode::PAGEDOWN, ModifierFlag::OPTION_L
+</autogen>
+</item>
+</root>
