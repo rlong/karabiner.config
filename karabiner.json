@@ -244,6 +244,8 @@
                                         "type": "frontmost_application_unless",
                                         "bundle_identifiers": [
                                             "com.apple.Terminal",
+                                            "org.gnu.Emacs",
+                                            "com.jetbrains.WebStorm",
                                             "com.vmware.fusion"
                                         ]
                                     }
@@ -274,6 +276,8 @@
                                     {
                                         "type": "frontmost_application_unless",
                                         "bundle_identifiers": [
+                                            "org.gnu.Emacs",
+                                            "com.jetbrains.WebStorm",
                                             "com.vmware.fusion"
                                         ]
                                     }
@@ -304,6 +308,8 @@
                                     {
                                         "type": "frontmost_application_unless",
                                         "bundle_identifiers": [
+                                            "org.gnu.Emacs",
+                                            "com.jetbrains.WebStorm",
                                             "com.vmware.fusion"
                                         ]
                                     }
@@ -334,6 +340,8 @@
                                     {
                                         "type": "frontmost_application_unless",
                                         "bundle_identifiers": [
+                                            "org.gnu.Emacs",
+                                            "com.jetbrains.WebStorm",
                                             "com.vmware.fusion"
                                         ]
                                     }
@@ -365,6 +373,8 @@
                                         "type": "frontmost_application_unless",
                                         "bundle_identifiers": [
                                             "com.apple.Terminal",
+                                            "org.gnu.Emacs",
+                                            "com.jetbrains.WebStorm",
                                             "com.vmware.fusion"
                                         ]
                                     }
@@ -396,6 +406,8 @@
                                         "type": "frontmost_application_unless",
                                         "bundle_identifiers": [
                                             "com.apple.Terminal",
+                                            "org.gnu.Emacs",
+                                            "com.jetbrains.WebStorm",
                                             "com.vmware.fusion"
                                         ]
                                     }
@@ -426,13 +438,13 @@
                                     {
                                         "type": "frontmost_application_unless",
                                         "bundle_identifiers": [
-                                            "com.apple.Terminal",
+                                            "org.gnu.Emacs",
+                                            "com.jetbrains.WebStorm",
                                             "com.vmware.fusion"
                                         ]
                                     }
                                 ]
-                            }
-                        ,
+                            },
                             {
                                 "from": {
                                     "key_code": "z",
@@ -459,6 +471,8 @@
                                         "type": "frontmost_application_unless",
                                         "bundle_identifiers": [
                                             "com.apple.Terminal",
+                                            "org.gnu.Emacs",
+                                            "com.jetbrains.WebStorm",
                                             "com.vmware.fusion"
                                         ]
                                     }
