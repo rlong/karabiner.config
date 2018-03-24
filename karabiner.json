@@ -243,7 +243,8 @@
                                     {
                                         "type": "frontmost_application_unless",
                                         "bundle_identifiers": [
-                                            "com.apple.Terminal"
+                                            "com.apple.Terminal",
+                                            "com.vmware.fusion"
                                         ]
                                     }
                                 ]
@@ -268,7 +269,15 @@
                                         ]
                                     }
                                 ],
-                                "type": "basic"
+                                "type": "basic",
+                                "conditions": [
+                                    {
+                                        "type": "frontmost_application_unless",
+                                        "bundle_identifiers": [
+                                            "com.vmware.fusion"
+                                        ]
+                                    }
+                                ]
                             },
                             {
                                 "from": {
@@ -290,7 +299,15 @@
                                         ]
                                     }
                                 ],
-                                "type": "basic"
+                                "type": "basic",
+                                "conditions": [
+                                    {
+                                        "type": "frontmost_application_unless",
+                                        "bundle_identifiers": [
+                                            "com.vmware.fusion"
+                                        ]
+                                    }
+                                ]
                             },
                             {
                                 "from": {
@@ -312,7 +329,15 @@
                                         ]
                                     }
                                 ],
-                                "type": "basic"
+                                "type": "basic",
+                                "conditions": [
+                                    {
+                                        "type": "frontmost_application_unless",
+                                        "bundle_identifiers": [
+                                            "com.vmware.fusion"
+                                        ]
+                                    }
+                                ]
                             },
                             {
                                 "from": {
@@ -339,7 +364,8 @@
                                     {
                                         "type": "frontmost_application_unless",
                                         "bundle_identifiers": [
-                                            "com.apple.Terminal"
+                                            "com.apple.Terminal",
+                                            "com.vmware.fusion"
                                         ]
                                     }
                                 ]
@@ -369,7 +395,8 @@
                                     {
                                         "type": "frontmost_application_unless",
                                         "bundle_identifiers": [
-                                            "com.apple.Terminal"
+                                            "com.apple.Terminal",
+                                            "com.vmware.fusion"
                                         ]
                                     }
                                 ]
@@ -399,7 +426,8 @@
                                     {
                                         "type": "frontmost_application_unless",
                                         "bundle_identifiers": [
-                                            "com.apple.Terminal"
+                                            "com.apple.Terminal",
+                                            "com.vmware.fusion"
                                         ]
                                     }
                                 ]
@@ -430,7 +458,8 @@
                                     {
                                         "type": "frontmost_application_unless",
                                         "bundle_identifiers": [
-                                            "com.apple.Terminal"
+                                            "com.apple.Terminal",
+                                            "com.vmware.fusion"
                                         ]
                                     }
                                 ]
