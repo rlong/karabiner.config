@@ -1,5 +1,5 @@
 # karabiner.config
 
 ```
-~/Library/Application Support/Karabiner
+~/.config/karabiner/karabiner.json
 ```
