@@ -246,6 +246,7 @@
                                             "com.apple.Terminal",
                                             "org.gnu.Emacs",
                                             "com.jetbrains.WebStorm",
+					    "com.microsoft.rdc.mac",
                                             "com.vmware.fusion"
                                         ]
                                     }
@@ -278,6 +279,7 @@
                                         "bundle_identifiers": [
                                             "org.gnu.Emacs",
                                             "com.jetbrains.WebStorm",
+					    "com.microsoft.rdc.mac",
                                             "com.vmware.fusion"
                                         ]
                                     }
@@ -310,6 +312,7 @@
                                         "bundle_identifiers": [
                                             "org.gnu.Emacs",
                                             "com.jetbrains.WebStorm",
+					    "com.microsoft.rdc.mac",
                                             "com.vmware.fusion"
                                         ]
                                     }
@@ -342,6 +345,7 @@
                                         "bundle_identifiers": [
                                             "org.gnu.Emacs",
                                             "com.jetbrains.WebStorm",
+					    "com.microsoft.rdc.mac",
                                             "com.vmware.fusion"
                                         ]
                                     }
@@ -375,6 +379,7 @@
                                             "com.apple.Terminal",
                                             "org.gnu.Emacs",
                                             "com.jetbrains.WebStorm",
+					    "com.microsoft.rdc.mac",
                                             "com.vmware.fusion"
                                         ]
                                     }
@@ -408,6 +413,7 @@
                                             "com.apple.Terminal",
                                             "org.gnu.Emacs",
                                             "com.jetbrains.WebStorm",
+					    "com.microsoft.rdc.mac",
                                             "com.vmware.fusion"
                                         ]
                                     }
@@ -440,6 +446,7 @@
                                         "bundle_identifiers": [
                                             "org.gnu.Emacs",
                                             "com.jetbrains.WebStorm",
+					    "com.microsoft.rdc.mac",
                                             "com.vmware.fusion"
                                         ]
                                     }
@@ -473,6 +480,7 @@
                                             "com.apple.Terminal",
                                             "org.gnu.Emacs",
                                             "com.jetbrains.WebStorm",
+					    "com.microsoft.rdc.mac",
                                             "com.vmware.fusion"
                                         ]
                                     }
