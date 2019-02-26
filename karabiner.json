@@ -219,6 +219,20 @@
                         "description": "Windows/Linux common chords copy/paste/undo etc.",
                         "manipulators": [
                             {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "com.apple.Terminal",
+                                            "org.gnu.Emacs",
+                                            "com.google.android.studio",
+					    "com.jetbrains.intellij",
+                                            "com.jetbrains.WebStorm",
+                                            "com.microsoft.rdc.mac",
+                                            "com.vmware.fusion"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
                                 "from": {
                                     "key_code": "c",
                                     "modifiers": {
@@ -238,21 +252,22 @@
                                         ]
                                     }
                                 ],
-                                "type": "basic",
-                                "conditions": [
-                                    {
-                                        "type": "frontmost_application_unless",
-                                        "bundle_identifiers": [
-                                            "com.apple.Terminal",
-                                            "org.gnu.Emacs",
-                                            "com.jetbrains.WebStorm",
-					    "com.microsoft.rdc.mac",
-                                            "com.vmware.fusion"
-                                        ]
-                                    }
-                                ]
+                                "type": "basic"
                             },
                             {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "org.gnu.Emacs",
+                                            "com.google.android.studio",
+					    "com.jetbrains.intellij",
+                                            "com.jetbrains.WebStorm",
+                                            "com.microsoft.rdc.mac",
+                                            "com.vmware.fusion"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
                                 "from": {
                                     "key_code": "n",
                                     "modifiers": {
@@ -272,20 +287,22 @@
                                         ]
                                     }
                                 ],
-                                "type": "basic",
-                                "conditions": [
-                                    {
-                                        "type": "frontmost_application_unless",
-                                        "bundle_identifiers": [
-                                            "org.gnu.Emacs",
-                                            "com.jetbrains.WebStorm",
-					    "com.microsoft.rdc.mac",
-                                            "com.vmware.fusion"
-                                        ]
-                                    }
-                                ]
+                                "type": "basic"
                             },
                             {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "org.gnu.Emacs",
+                                            "com.google.android.studio",
+					    "com.jetbrains.intellij",
+                                            "com.jetbrains.WebStorm",
+                                            "com.microsoft.rdc.mac",
+                                            "com.vmware.fusion"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
                                 "from": {
                                     "key_code": "s",
                                     "modifiers": {
@@ -305,20 +322,22 @@
                                         ]
                                     }
                                 ],
-                                "type": "basic",
-                                "conditions": [
-                                    {
-                                        "type": "frontmost_application_unless",
-                                        "bundle_identifiers": [
-                                            "org.gnu.Emacs",
-                                            "com.jetbrains.WebStorm",
-					    "com.microsoft.rdc.mac",
-                                            "com.vmware.fusion"
-                                        ]
-                                    }
-                                ]
+                                "type": "basic"
                             },
                             {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "org.gnu.Emacs",
+                                            "com.google.android.studio",
+					    "com.jetbrains.intellij",
+                                            "com.jetbrains.WebStorm",
+                                            "com.microsoft.rdc.mac",
+                                            "com.vmware.fusion"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
                                 "from": {
                                     "key_code": "t",
                                     "modifiers": {
@@ -338,20 +357,23 @@
                                         ]
                                     }
                                 ],
-                                "type": "basic",
-                                "conditions": [
-                                    {
-                                        "type": "frontmost_application_unless",
-                                        "bundle_identifiers": [
-                                            "org.gnu.Emacs",
-                                            "com.jetbrains.WebStorm",
-					    "com.microsoft.rdc.mac",
-                                            "com.vmware.fusion"
-                                        ]
-                                    }
-                                ]
+                                "type": "basic"
                             },
                             {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "com.apple.Terminal",
+                                            "org.gnu.Emacs",
+                                            "com.google.android.studio",
+					    "com.jetbrains.intellij",
+                                            "com.jetbrains.WebStorm",
+                                            "com.microsoft.rdc.mac",
+                                            "com.vmware.fusion"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
                                 "from": {
                                     "key_code": "v",
                                     "modifiers": {
@@ -371,21 +393,23 @@
                                         ]
                                     }
                                 ],
-                                "type": "basic",
+                                "type": "basic"
+                            },
+                            {
                                 "conditions": [
                                     {
-                                        "type": "frontmost_application_unless",
                                         "bundle_identifiers": [
                                             "com.apple.Terminal",
                                             "org.gnu.Emacs",
+                                            "com.google.android.studio",
+					    "com.jetbrains.intellij",
                                             "com.jetbrains.WebStorm",
-					    "com.microsoft.rdc.mac",
+                                            "com.microsoft.rdc.mac",
                                             "com.vmware.fusion"
-                                        ]
+                                        ],
+                                        "type": "frontmost_application_unless"
                                     }
-                                ]
-                            },
-                            {
+                                ],
                                 "from": {
                                     "key_code": "x",
                                     "modifiers": {
@@ -405,21 +429,22 @@
                                         ]
                                     }
                                 ],
-                                "type": "basic",
-                                "conditions": [
-                                    {
-                                        "type": "frontmost_application_unless",
-                                        "bundle_identifiers": [
-                                            "com.apple.Terminal",
-                                            "org.gnu.Emacs",
-                                            "com.jetbrains.WebStorm",
-					    "com.microsoft.rdc.mac",
-                                            "com.vmware.fusion"
-                                        ]
-                                    }
-                                ]
+                                "type": "basic"
                             },
                             {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "org.gnu.Emacs",
+                                            "com.google.android.studio",
+					    "com.jetbrains.intellij",
+                                            "com.jetbrains.WebStorm",
+                                            "com.microsoft.rdc.mac",
+                                            "com.vmware.fusion"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
                                 "from": {
                                     "key_code": "w",
                                     "modifiers": {
@@ -439,20 +464,23 @@
                                         ]
                                     }
                                 ],
-                                "type": "basic",
-                                "conditions": [
-                                    {
-                                        "type": "frontmost_application_unless",
-                                        "bundle_identifiers": [
-                                            "org.gnu.Emacs",
-                                            "com.jetbrains.WebStorm",
-					    "com.microsoft.rdc.mac",
-                                            "com.vmware.fusion"
-                                        ]
-                                    }
-                                ]
+                                "type": "basic"
                             },
                             {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "com.apple.Terminal",
+                                            "org.gnu.Emacs",
+                                            "com.google.android.studio",
+					    "com.jetbrains.intellij",
+                                            "com.jetbrains.WebStorm",
+                                            "com.microsoft.rdc.mac",
+                                            "com.vmware.fusion"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
                                 "from": {
                                     "key_code": "z",
                                     "modifiers": {
@@ -472,19 +500,7 @@
                                         ]
                                     }
                                 ],
-                                "type": "basic",
-                                "conditions": [
-                                    {
-                                        "type": "frontmost_application_unless",
-                                        "bundle_identifiers": [
-                                            "com.apple.Terminal",
-                                            "org.gnu.Emacs",
-                                            "com.jetbrains.WebStorm",
-					    "com.microsoft.rdc.mac",
-                                            "com.vmware.fusion"
-                                        ]
-                                    }
-                                ]
+                                "type": "basic"
                             }
                         ]
                     },
@@ -492,6 +508,14 @@
                         "description": "Terminal: emulate linux style copy/paste",
                         "manipulators": [
                             {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "com.apple.Terminal"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
                                 "from": {
                                     "key_code": "c",
                                     "modifiers": {
@@ -512,17 +536,17 @@
                                         ]
                                     }
                                 ],
-                                "type": "basic",
-                                "conditions": [
-                                    {
-                                        "type": "frontmost_application_if",
-                                        "bundle_identifiers": [
-                                            "com.apple.Terminal"
-                                        ]
-                                    }
-                                ]
+                                "type": "basic"
                             },
                             {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "com.apple.Terminal"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
                                 "from": {
                                     "key_code": "v",
                                     "modifiers": {
@@ -543,15 +567,7 @@
                                         ]
                                     }
                                 ],
-                                "type": "basic",
-                                "conditions": [
-                                    {
-                                        "type": "frontmost_application_if",
-                                        "bundle_identifiers": [
-                                            "com.apple.Terminal"
-                                        ]
-                                    }
-                                ]
+                                "type": "basic"
                             }
                         ]
                     }
@@ -666,10 +682,19 @@
                     "to": {
                         "key_code": "left_control"
                     }
+                },
+                {
+                    "from": {
+                        "key_code": "non_us_backslash"
+                    },
+                    "to": {
+                        "key_code": "grave_accent_and_tilde"
+                    }
                 }
             ],
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
+                "country_code": 0,
                 "keyboard_type": "ansi"
             }
         }
